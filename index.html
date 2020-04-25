@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Ex 5</title>
+    </head>
+
+    <body>
+        <script>
+            var firstNumber = 5, secondNumber = 6;
+            var multiplicationResult = firstNumber * secondNumber;
+            while (multiplicationResult <= 250) {
+                var p = document.createElement("p");
+                p.innerHTML = multiplicationResult;
+                document.body.appendChild(p);
+                if (multiplicationResult <= 250) {
+                    firstNumber++;
+                }
+            }
+
+        </script>
+    </body>
+
+</html>
